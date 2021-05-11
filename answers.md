@@ -69,19 +69,43 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a").
 
 8) OUTPUT:
-commit a15515299fc094bb0faa24bdc11e10100f3f595e (HEAD -> master)
-Author: chirag167 <chiragrathi16798@gmail.com>
-Date:   Tue May 11 09:28:29 2021 +0400
+commit 575752bb1006d6f4fe2714d363443feb6cb3ee8a (HEAD -> master)
+Author: chirag167 <chirag16798@gmail.com>
+Date:   Tue May 11 09:44:39 2021 +0400
 
-    initial commit
+    Initial commit
 
 9) OUTPUT: 
 
-On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.30 KiB | 1.30 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/chirag167/github-lab.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
 
-nothing to commit, working tree clean
+10) No, changes made online were not reflected in my local directory.
+
+11) OUTPUT:
+To https://github.com/chirag167/github-lab.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/chirag167/github-lab.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+12) After giving the git pull command, the changes were made successfully. The online repository and my local working repository were in sync.
+
+13) OUTPUT:
+.		..		.git		.gitignore	README.md
+
+
+
 
 
 
